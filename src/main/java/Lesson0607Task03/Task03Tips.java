@@ -1,6 +1,12 @@
 package Lesson0607Task03;
 
-//public class Main {
+//import java.io.FileWriter;
+//import java.io.IOException;
+//import java.lang.annotation.*;
+//import java.lang.reflect.InvocationTargetException;
+//import java.lang.reflect.Method;
+//
+//class Main {
 //    public static void main(String[] args) throws IOException, InvocationTargetException, IllegalAccessException {
 //
 //        TestConteiner testConteiner = new TestConteiner();
@@ -22,21 +28,21 @@ package Lesson0607Task03;
 //    }
 //}
 //
-//---------------------------
+// //---------------------------
 //
 //@Inherited
 //@Retention(value = RetentionPolicy.RUNTIME)
-//public @interface SaveTo {
+//@interface SaveTo {
 //    String PATH(); // = "/home/roman/ROMA/JAVA/ProgKievUa/HW1 Refl 13.10/Task2/file.txt";
 //}
-//-----------------
+// //-----------------
 //@Target(value = ElementType.METHOD)
 //@Retention(value = RetentionPolicy.RUNTIME)
-//public @interface Saver {
+//@interface Saver {
 //}
-//----------------
+// //----------------
 //@SaveTo(PATH = "/home/roman/ROMA/JAVA................................./file.txt")
-//public class TestConteiner {
+//class TestConteiner {
 //    String text = "text from textContainer";
 //
 //    @Saver
